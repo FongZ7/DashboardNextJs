@@ -11,7 +11,8 @@ import Image from 'next/image';
 import { useSession } from 'next-auth/react';
 import { redirect } from 'next/navigation';
 
-import DeleteBtn from './DeleteBtn';
+import DeleteBtn from '../components/DeleteBtn';  // เปลี่ยนเส้นทางให้ตรงกับที่ไฟล์อยู่จริง
+
 
 function AdminUserManagePage() {
 
